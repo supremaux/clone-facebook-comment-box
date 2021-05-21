@@ -1,0 +1,16 @@
+@import 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap';*{margin:0 auto;padding:0;font-family:open sans,sans-serif}
+#coments{background:#fff;border-radius:5px; padding:25px 40px; width:960px}
+#coments p b{font-weight:600;font-size:14px;color:#000}
+#coments .comentarios{margin-top:-5px;border-top:solid 1px #dcdcdc;border-bottom:solid 1px #dcdcdc;padding:20px 0;margin-bottom:5px}
+#coments .comentarios .repeat{margin-bottom:25px}
+#coments .comentarios .respostas{margin:25px 0;border-left:solid 1px #dcdcdc;padding-left:10px}
+#coments .comentarios .resposta{margin:15px 0}
+#coments .comentarios .repeat:last-child{margin-bottom:0}
+#coments .comentarios .img_comentario{float:left;margin-right:10px}
+#coments .comentarios .img_comentario img{width:50px;height:50px}
+#coments .comentarios .user_comentario{padding-left:60px}
+#coments .comentarios p.nome{font-weight:800;color:#365899;font-size:14px;margin-bottom:0}
+#coments .comentarios p.texto{font-weight:400;color:#090909;font-size:14px;margin-bottom:0}
+#coments .comentarios .botoes small{color:#93979f;padding:10px 0 0;font-size:11px}
+#coments small.facebook img{width:17px;margin-right:10px}
+#coments small.facebook{color:#666;font-size:12px}@media screen and (max-width:768px){#coments{width:90%;padding:10px 15px}}
